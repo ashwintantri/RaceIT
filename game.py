@@ -14,7 +14,7 @@ red = (255,0,0)
 car_width = 73 #location of top left pixel of the car(image)
 
 gameDisplay = pygame.display.set_mode((display_width,display_height)) #canvas for displaying objects
-pygame.display.set_caption('RaceIT') #name of the game
+pygame.display.set_caption('SimplyFiy') #name of the game
 clock = pygame.time.Clock() #track time in the game (frames)
 
 carImg = pygame.image.load('racecar.png') #load car image
